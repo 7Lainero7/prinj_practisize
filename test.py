@@ -6,4 +6,5 @@ def test_sum_and_count():
 
     obj_sum_and_count = count_and_sum(list_int)
 
-    assert (obj_sum_and_count['count'] == 2 and obj_sum_and_count['summary'] == 6)
+    assert (obj_sum_and_count['count'] == 2
+            and obj_sum_and_count['summary'] == 6)

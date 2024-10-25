@@ -1,6 +1,4 @@
-
-
-def count_and_sum(list_int:list[int]) -> object:
+def count_and_sum(list_int: list[int]) -> object:
     count = 0
     summary = 0
 
